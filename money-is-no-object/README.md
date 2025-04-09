@@ -77,6 +77,7 @@ A playlist object will look like this:
 
 **Examples**
 ```
+
 getPlaylistLength({
     name: 'hits',
     songs: ['The Distance', 'Ruby Tuesday', 'Old Town Road (remix)']
