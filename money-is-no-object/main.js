@@ -72,9 +72,9 @@ function getHardestHomework(homework) {
 
 
 getHardestHomework([
-    { name: 'homework 1', averageScore: 99 }
-    { name: 'homework 2', averageScore: 1 }
-]) return averageScore <= averageScore
+    { name: 'homework 1', averageScore: 99 },
+    { name: 'homework 2', averageScore: 1 },
+]) return averageScore <= averageScore;
 
 
 getHardestHomework([
