@@ -1,23 +1,20 @@
 // ┌─────────────────┐
 // │ Your code here! │	
 // └─────────────────┘
-const isAdmin = (user) => {
-    firstName:  'Tia'
-    lastName:   'Williams'
-    userRole:   'admin'     
-
+const isAdmin = (user) => ({
+    })
     for(let i in user){
         if(i === 'userRole' && user[i] === 'ADMIN'){
             return true;
         }
     }
     return false;
-}
+
 
  function getEmail(user){
 
     const firstName = user.firstName;
-    const lastName = user.lastname;
+    const lastName = user.lastName;
 const email = firstName(1) + lastName + ".prsvr@gmail.com";
 return email
  }
@@ -45,15 +42,14 @@ console.log(email)
  function getPlaylistLength(playlist) {
     name: 'empty playlist',
     songs; []
-    return playlist.length
-        
-}
+    return playlist.length = "empty playlist"
+ }
 
 
 function getHardestHomework(homework) {
-     if (!homeworks || homeworks.length === 0) {
+     if (!homework || homework.length === 0) {
      return null;
- }
+    }
  let hardestHomework = null;
  let lowestAverage = Infinity;
 
@@ -70,11 +66,13 @@ function getHardestHomework(homework) {
  return hardestHomework;
 }
 
+return 'Hip-Hip-Array'
 
 getHardestHomework([
     { name: 'homework 1', averageScore: 99 },
     { name: 'homework 2', averageScore: 1 },
-]) return averageScore <= averageScore;
+]) 
+    => 'averageScore <== averageScore' 
 
 
 getHardestHomework([
